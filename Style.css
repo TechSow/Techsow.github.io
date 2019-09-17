@@ -6,10 +6,10 @@ section{
     height: 100vh;
     background: #000;
 }
-@font-face{
+/*@font-face{
     font-family:'one day';
     src: url("./arkhip.ttf");
-}
+}*/
 video{
     object-fit: cover;
 }
@@ -23,9 +23,9 @@ h1{
     text-align: center;
     color: #ddd;
     font-size: 5em;
-    font-family: sans-serif;
+    font-family: 'Fredericka the Great', cursive;
     letter-spacing: 0.2em;
-    
+    text-shadow: 25px -120px 22px rgb(97, 95, 95);
 }
 h1 span{
     opacity: 0;
