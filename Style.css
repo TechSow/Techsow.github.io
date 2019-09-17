@@ -6,6 +6,10 @@ section{
     height: 100vh;
     background: #000;
 }
+@font-face{
+    font-family:'one day';
+    src: url("./arkhip.ttf");
+}
 video{
     object-fit: cover;
 }
@@ -25,6 +29,7 @@ h1{
 }
 h1 span{
     opacity: 0;
+    font-family:'one day';
     display: inline-block;
     animation: animate 1s linear forwards;
 }
